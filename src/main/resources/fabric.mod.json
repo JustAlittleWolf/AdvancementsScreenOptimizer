@@ -8,7 +8,8 @@
     "JustAlittleWolf"
   ],
   "contact": {
-    "repo": "https://github.com/Wolfi/AdvancementsScreenOptimizer"
+    "sources": "https://github.com/JustAlittleWolf/AdvancementsScreenOptimizer",
+    "issues": "https://github.com/JustAlittleWolf/AdvancementsScreenOptimizer/issues"
   },
   "license": "MIT",
   "icon": "assets/advancementsscreenoptimizer/icon.png",
