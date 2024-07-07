@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "advancementsscreenoptimizer",
+  "version": "${version}",
+  "name": "AdvancementsScreenOptimizer",
+  "description": "Optimizes drawing the advancements screen",
+  "authors": [
+    "JustAlittleWolf"
+  ],
+  "contact": {
+    "repo": "https://github.com/Wolfi/AdvancementsScreenOptimizer"
+  },
+  "license": "MIT",
+  "icon": "assets/advancementsscreenoptimizer/icon.png",
+  "environment": "client",
+  "mixins": [
+    "advancementsscreenoptimizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21"
+  },
+  "custom": {
+    "loom:injected_interfaces": {
+      "net/minecraft/client/gui/screen/advancement/AdvancementWidget": [
+        "me/wolfii/advancementsscreenoptimizer/AdvancementWidgetDrawCheck"
+      ],
+      "net/minecraft/client/gui/DrawContext": [
+        "me/wolfii/advancementsscreenoptimizer/DrawContextBlocker",
+        "me/wolfii/advancementsscreenoptimizer/DrawContextBatchTextureDrawer"
+      ]
+    }
+  }
+}
