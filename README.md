@@ -1,5 +1,8 @@
 # AdvancementsScreen Optimizer
 
+> [!IMPORTANT]
+> Mojang fixed this performance issue in 1.21.2+, so this mod is no longer required
+
 Optimizes how the advancements screen is rendered
 
 ## How it works
